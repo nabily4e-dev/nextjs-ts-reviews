@@ -1,6 +1,7 @@
 import NavBar from '@/components/nav-bar';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import { exo2, orbitron } from './fonts';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -16,7 +17,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang='en'>
+    <html
+      lang='en'
+      className={`${orbitron.variable} ${exo2.variable}`}
+    >
       <body className='bg-orange-50 flex flex-col px-4 py-2 min-h-screen'>
         <header>
           <NavBar />

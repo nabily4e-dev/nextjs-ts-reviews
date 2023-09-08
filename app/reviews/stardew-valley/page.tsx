@@ -6,7 +6,7 @@ export default function StardewValleyPage() {
     <>
       <Heading>Stardew Valley</Heading>
       <Image
-        src='/images/hollow-knight.jpg'
+        src='/images/stardew-valley.jpg'
         alt='Hollow Knight'
         width={1280}
         height={720}

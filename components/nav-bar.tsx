@@ -9,12 +9,12 @@ const NavBar = (props: Props) => {
         <li>
           <Link
             href='/'
-            className='text-orange-800 hover:underline'
+            className='font-bold font-orbitron text-orange-800 hover:underline'
           >
-            Home
+            Indie Gamer
           </Link>
         </li>
-        <li>
+        <li className='ml-auto'>
           <Link
             href='/reviews'
             className='text-orange-800 hover:underline'
