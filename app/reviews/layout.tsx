@@ -1,13 +1,15 @@
-import { ReactNode } from 'react';
+import type { FC, ReactNode } from 'react';
 
 type Props = {
   children: ReactNode;
 };
 
-const ReviewsLayout = ({ children }: Props) => {
+const ReviewsLayout: FC<Props> = ({ children }: Props) => {
   return (
-    <div style={{ display: 'flex' }}>
-      <div style={{ border: 'solid red 1px' }}>reviews menubar</div>
+    <div>
+      <div>
+        <h1>Reviews</h1>
+      </div>
       <div>{children}</div>
     </div>
   );

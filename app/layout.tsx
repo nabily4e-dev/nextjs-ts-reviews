@@ -1,16 +1,29 @@
-import type { ReactNode, FC } from 'react';
+import NavBar from '@/components/nav-bar';
+import type { FC, ReactNode } from 'react';
+import './globals.css';
 
 type Props = {
   children: ReactNode;
 };
 
-const HomePage: FC = ({ children }: Props) => {
+const HomePage: FC<Props> = ({ children }: Props) => {
   return (
     <html lang='en'>
-      <body>
-        <header style={{ border: 'solid blue 1px' }}>[header]</header>
-        <main>{children}</main>
-        <footer style={{ border: 'solid blue 1px' }}>[footer]</footer>
+      <body className='bg-orange-50 flex flex-col px-4 py-2 min-h-screen'>
+        <header>
+          <NavBar />
+        </header>
+        <main className='grow py-3'>{children}</main>
+        <footer className='border-t py-3 text-center text-sx'>
+          Game data and images courtesy of{' '}
+          <a
+            href='https://rawg.io/'
+            target='_blank'
+            className='text-orange-800 hover:underline'
+          >
+            RAWG
+          </a>
+        </footer>
       </body>
     </html>
   );

@@ -1,12 +1,21 @@
+import Heading from '@/components/heading';
+import Link from 'next/link';
 import type { FC } from 'react';
 
 type Props = {};
 
-const ReviewsPage: FC = (props: Props) => {
+const ReviewsPage: FC<Props> = (props: Props) => {
   return (
     <>
-      <h1>Reviews</h1>
-      <p>Here, we will list all the reviews</p>
+      <Heading>Reviews</Heading>
+      <ul>
+        <li>
+          <Link href='/reviews/hollow-knight'>Hollow Knight</Link>
+        </li>
+        <li>
+          <Link href='/reviews/stardew-valley'>Stardew Valley</Link>
+        </li>
+      </ul>
     </>
   );
 };
