@@ -1,9 +1,14 @@
-import React from 'react'
+import { FC } from 'react';
 
-type Props = {}
+type Props = {};
 
-const AboutPage = (props: Props) => {
-  return <div>About Page</div>;
-}
+const AboutPage: FC<Props> = (props: Props) => {
+  return (
+    <>
+      <h1>About</h1>
+      <p>A website created to learn Next.js</p>
+    </>
+  );
+};
 
-export default AboutPage
+export default AboutPage;

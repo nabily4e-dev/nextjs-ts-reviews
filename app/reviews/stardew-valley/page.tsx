@@ -1,8 +1,8 @@
-import React from 'react';
+import { FC } from 'react';
 
 type Props = {};
 
-const StardewValley = (props: Props) => {
+const StardewValley: FC<Props> = (props: Props) => {
   return (
     <>
       <h1>Stardew Valley</h1>
