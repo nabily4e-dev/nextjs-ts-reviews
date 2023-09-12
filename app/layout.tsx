@@ -1,5 +1,6 @@
 import NavBar from '@/components/nav-bar';
 import type { FC, ReactNode } from 'react';
+import { exo2, orbitron } from './fonts';
 import './globals.css';
 
 type Props = {
@@ -8,7 +9,10 @@ type Props = {
 
 const HomePage: FC<Props> = ({ children }: Props) => {
   return (
-    <html lang='en'>
+    <html
+      lang='en'
+      className={`${orbitron.variable} ${exo2.variable}`}
+    >
       <body className='bg-orange-50 flex flex-col px-4 py-2 min-h-screen'>
         <header>
           <NavBar />
