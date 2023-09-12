@@ -28,13 +28,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@tailwindcss/typography", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:0.5.10"],\
             ["@types/node", "npm:20.5.9"],\
             ["@types/react", "npm:18.2.21"],\
             ["autoprefixer", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:10.4.15"],\
+            ["gray-matter", "npm:4.0.3"],\
+            ["marked", "npm:9.0.0"],\
             ["next", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:13.4.19"],\
             ["postcss", "npm:8.4.29"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:18.2.0"],\
+            ["sharp", "npm:0.32.5"],\
             ["tailwindcss", "npm:3.3.3"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
@@ -274,6 +278,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@tailwindcss/typography", [\
+        ["npm:0.5.10", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/@tailwindcss-typography-npm-0.5.10-2b2ed3a63b-8.zip/node_modules/@tailwindcss/typography/",\
+          "packageDependencies": [\
+            ["@tailwindcss/typography", "npm:0.5.10"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:0.5.10", {\
+          "packageLocation": "./.yarn/__virtual__/@tailwindcss-typography-virtual-0729a575f7/6/AppData/Local/Yarn/Berry/cache/@tailwindcss-typography-npm-0.5.10-2b2ed3a63b-8.zip/node_modules/@tailwindcss/typography/",\
+          "packageDependencies": [\
+            ["@tailwindcss/typography", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:0.5.10"],\
+            ["@types/tailwindcss", null],\
+            ["lodash.castarray", "npm:4.4.0"],\
+            ["lodash.isplainobject", "npm:4.0.6"],\
+            ["lodash.merge", "npm:4.6.2"],\
+            ["postcss-selector-parser", "npm:6.0.10"],\
+            ["tailwindcss", "npm:3.3.3"]\
+          ],\
+          "packagePeers": [\
+            "@types/tailwindcss",\
+            "tailwindcss"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@tootallnate/once", [\
         ["npm:2.0.0", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/@tootallnate-once-npm-2.0.0-e36cf4f140-8.zip/node_modules/@tootallnate/once/",\
@@ -444,6 +474,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["argparse", [\
+        ["npm:1.0.10", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/argparse-npm-1.0.10-528934e59d-8.zip/node_modules/argparse/",\
+          "packageDependencies": [\
+            ["argparse", "npm:1.0.10"],\
+            ["sprintf-js", "npm:1.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["autoprefixer", [\
         ["npm:10.4.15", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/autoprefixer-npm-10.4.15-f16a1e775d-8.zip/node_modules/autoprefixer/",\
@@ -472,6 +512,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["b4a", [\
+        ["npm:1.6.4", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/b4a-npm-1.6.4-080bcba845-8.zip/node_modules/b4a/",\
+          "packageDependencies": [\
+            ["b4a", "npm:1.6.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["balanced-match", [\
         ["npm:1.0.2", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/balanced-match-npm-1.0.2-a53c126459-8.zip/node_modules/balanced-match/",\
@@ -481,11 +530,32 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["base64-js", [\
+        ["npm:1.5.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/base64-js-npm-1.5.1-b2f7275641-8.zip/node_modules/base64-js/",\
+          "packageDependencies": [\
+            ["base64-js", "npm:1.5.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["binary-extensions", [\
         ["npm:2.2.0", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/binary-extensions-npm-2.2.0-180c33fec7-8.zip/node_modules/binary-extensions/",\
           "packageDependencies": [\
             ["binary-extensions", "npm:2.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["bl", [\
+        ["npm:4.1.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/bl-npm-4.1.0-7f94cdcf3f-8.zip/node_modules/bl/",\
+          "packageDependencies": [\
+            ["bl", "npm:4.1.0"],\
+            ["buffer", "npm:5.7.1"],\
+            ["inherits", "npm:2.0.4"],\
+            ["readable-stream", "npm:3.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -528,6 +598,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["electron-to-chromium", "npm:1.4.512"],\
             ["node-releases", "npm:2.0.13"],\
             ["update-browserslist-db", "virtual:e2170a875bba2f8fa9e93e47c65f2f250097e101a59d95ea6fd852f32965e8cd6cef3b5662aa7295279d5bc60c9a612ddb8515c7dd1b7e8fb9984dee1823e7d6#npm:1.0.11"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["buffer", [\
+        ["npm:5.7.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/buffer-npm-5.7.1-513ef8259e-8.zip/node_modules/buffer/",\
+          "packageDependencies": [\
+            ["buffer", "npm:5.7.1"],\
+            ["base64-js", "npm:1.5.1"],\
+            ["ieee754", "npm:1.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -606,6 +687,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["chownr", [\
+        ["npm:1.1.4", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/chownr-npm-1.1.4-5bd400ab08-8.zip/node_modules/chownr/",\
+          "packageDependencies": [\
+            ["chownr", "npm:1.1.4"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:2.0.0", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/chownr-npm-2.0.0-638f1c9c61-8.zip/node_modules/chownr/",\
           "packageDependencies": [\
@@ -632,6 +720,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["color", [\
+        ["npm:4.2.3", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/color-npm-4.2.3-4a23227581-8.zip/node_modules/color/",\
+          "packageDependencies": [\
+            ["color", "npm:4.2.3"],\
+            ["color-convert", "npm:2.0.1"],\
+            ["color-string", "npm:1.9.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["color-convert", [\
         ["npm:2.0.1", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/color-convert-npm-2.0.1-79730e935b-8.zip/node_modules/color-convert/",\
@@ -647,6 +746,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/color-name-npm-1.1.4-025792b0ea-8.zip/node_modules/color-name/",\
           "packageDependencies": [\
             ["color-name", "npm:1.1.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["color-string", [\
+        ["npm:1.9.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/color-string-npm-1.9.1-dc020e56be-8.zip/node_modules/color-string/",\
+          "packageDependencies": [\
+            ["color-string", "npm:1.9.1"],\
+            ["color-name", "npm:1.1.4"],\
+            ["simple-swizzle", "npm:0.2.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -740,11 +850,39 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["decompress-response", [\
+        ["npm:6.0.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/decompress-response-npm-6.0.0-359de2878c-8.zip/node_modules/decompress-response/",\
+          "packageDependencies": [\
+            ["decompress-response", "npm:6.0.0"],\
+            ["mimic-response", "npm:3.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["deep-extend", [\
+        ["npm:0.6.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/deep-extend-npm-0.6.0-e182924219-8.zip/node_modules/deep-extend/",\
+          "packageDependencies": [\
+            ["deep-extend", "npm:0.6.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["delegates", [\
         ["npm:1.0.0", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/delegates-npm-1.0.0-9b1942d75f-8.zip/node_modules/delegates/",\
           "packageDependencies": [\
             ["delegates", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["detect-libc", [\
+        ["npm:2.0.2", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/detect-libc-npm-2.0.2-03afa59137-8.zip/node_modules/detect-libc/",\
+          "packageDependencies": [\
+            ["detect-libc", "npm:2.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -811,6 +949,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["end-of-stream", [\
+        ["npm:1.4.4", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/end-of-stream-npm-1.4.4-497fc6dee1-8.zip/node_modules/end-of-stream/",\
+          "packageDependencies": [\
+            ["end-of-stream", "npm:1.4.4"],\
+            ["once", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["env-paths", [\
         ["npm:2.2.1", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/env-paths-npm-2.2.1-7c7577428c-8.zip/node_modules/env-paths/",\
@@ -838,11 +986,48 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["esprima", [\
+        ["npm:4.0.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/esprima-npm-4.0.1-1084e98778-8.zip/node_modules/esprima/",\
+          "packageDependencies": [\
+            ["esprima", "npm:4.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["expand-template", [\
+        ["npm:2.0.3", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/expand-template-npm-2.0.3-80de959306-8.zip/node_modules/expand-template/",\
+          "packageDependencies": [\
+            ["expand-template", "npm:2.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["exponential-backoff", [\
         ["npm:3.1.1", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/exponential-backoff-npm-3.1.1-04df458b30-8.zip/node_modules/exponential-backoff/",\
           "packageDependencies": [\
             ["exponential-backoff", "npm:3.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["extend-shallow", [\
+        ["npm:2.0.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/extend-shallow-npm-2.0.1-e6ef52b29c-8.zip/node_modules/extend-shallow/",\
+          "packageDependencies": [\
+            ["extend-shallow", "npm:2.0.1"],\
+            ["is-extendable", "npm:0.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["fast-fifo", [\
+        ["npm:1.3.2", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/fast-fifo-npm-1.3.2-391cc25df4-8.zip/node_modules/fast-fifo/",\
+          "packageDependencies": [\
+            ["fast-fifo", "npm:1.3.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -897,6 +1082,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/fraction.js-npm-4.3.6-233f81170c-8.zip/node_modules/fraction.js/",\
           "packageDependencies": [\
             ["fraction.js", "npm:4.3.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["fs-constants", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/fs-constants-npm-1.0.0-59576b2177-8.zip/node_modules/fs-constants/",\
+          "packageDependencies": [\
+            ["fs-constants", "npm:1.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -960,6 +1154,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["string-width", "npm:4.2.3"],\
             ["strip-ansi", "npm:6.0.1"],\
             ["wide-align", "npm:1.1.5"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["github-from-package", [\
+        ["npm:0.0.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/github-from-package-npm-0.0.0-519f80c9a1-8.zip/node_modules/github-from-package/",\
+          "packageDependencies": [\
+            ["github-from-package", "npm:0.0.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1040,6 +1243,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["gray-matter", [\
+        ["npm:4.0.3", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/gray-matter-npm-4.0.3-852ae4f34c-8.zip/node_modules/gray-matter/",\
+          "packageDependencies": [\
+            ["gray-matter", "npm:4.0.3"],\
+            ["js-yaml", "npm:3.14.1"],\
+            ["kind-of", "npm:6.0.3"],\
+            ["section-matter", "npm:1.0.0"],\
+            ["strip-bom-string", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["has", [\
         ["npm:1.0.3", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/has-npm-1.0.3-b7f00631c1-8.zip/node_modules/has/",\
@@ -1111,6 +1327,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["ieee754", [\
+        ["npm:1.2.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/ieee754-npm-1.2.1-fb63b3caeb-8.zip/node_modules/ieee754/",\
+          "packageDependencies": [\
+            ["ieee754", "npm:1.2.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["imurmurhash", [\
         ["npm:0.1.4", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/imurmurhash-npm-0.1.4-610c5068a0-8.zip/node_modules/imurmurhash/",\
@@ -1149,11 +1374,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["ini", [\
+        ["npm:1.3.8", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/ini-npm-1.3.8-fb5040b4c0-8.zip/node_modules/ini/",\
+          "packageDependencies": [\
+            ["ini", "npm:1.3.8"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ip", [\
         ["npm:2.0.0", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/ip-npm-2.0.0-204facb3cc-8.zip/node_modules/ip/",\
           "packageDependencies": [\
             ["ip", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["is-arrayish", [\
+        ["npm:0.3.2", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/is-arrayish-npm-0.3.2-f856180f79-8.zip/node_modules/is-arrayish/",\
+          "packageDependencies": [\
+            ["is-arrayish", "npm:0.3.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1174,6 +1417,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["is-core-module", "npm:2.13.0"],\
             ["has", "npm:1.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["is-extendable", [\
+        ["npm:0.1.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/is-extendable-npm-0.1.1-322b4649ec-8.zip/node_modules/is-extendable/",\
+          "packageDependencies": [\
+            ["is-extendable", "npm:0.1.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1262,6 +1514,26 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["js-yaml", [\
+        ["npm:3.14.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/js-yaml-npm-3.14.1-b968c6095e-8.zip/node_modules/js-yaml/",\
+          "packageDependencies": [\
+            ["js-yaml", "npm:3.14.1"],\
+            ["argparse", "npm:1.0.10"],\
+            ["esprima", "npm:4.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["kind-of", [\
+        ["npm:6.0.3", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/kind-of-npm-6.0.3-ab15f36220-8.zip/node_modules/kind-of/",\
+          "packageDependencies": [\
+            ["kind-of", "npm:6.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lilconfig", [\
         ["npm:2.1.0", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/lilconfig-npm-2.1.0-a179261924-8.zip/node_modules/lilconfig/",\
@@ -1276,6 +1548,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/lines-and-columns-npm-1.2.4-d6c7cc5799-8.zip/node_modules/lines-and-columns/",\
           "packageDependencies": [\
             ["lines-and-columns", "npm:1.2.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.castarray", [\
+        ["npm:4.4.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/lodash.castarray-npm-4.4.0-f3706198e9-8.zip/node_modules/lodash.castarray/",\
+          "packageDependencies": [\
+            ["lodash.castarray", "npm:4.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.isplainobject", [\
+        ["npm:4.0.6", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/lodash.isplainobject-npm-4.0.6-d73937742f-8.zip/node_modules/lodash.isplainobject/",\
+          "packageDependencies": [\
+            ["lodash.isplainobject", "npm:4.0.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["lodash.merge", [\
+        ["npm:4.6.2", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/lodash.merge-npm-4.6.2-77cb4416bf-8.zip/node_modules/lodash.merge/",\
+          "packageDependencies": [\
+            ["lodash.merge", "npm:4.6.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1338,6 +1637,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["marked", [\
+        ["npm:9.0.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/marked-npm-9.0.0-51812e225c-8.zip/node_modules/marked/",\
+          "packageDependencies": [\
+            ["marked", "npm:9.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["merge2", [\
         ["npm:1.4.1", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/merge2-npm-1.4.1-a2507bd06c-8.zip/node_modules/merge2/",\
@@ -1358,6 +1666,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["mimic-response", [\
+        ["npm:3.1.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/mimic-response-npm-3.1.0-a4a24b4e96-8.zip/node_modules/mimic-response/",\
+          "packageDependencies": [\
+            ["mimic-response", "npm:3.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["minimatch", [\
         ["npm:3.1.2", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/minimatch-npm-3.1.2-9405269906-8.zip/node_modules/minimatch/",\
@@ -1372,6 +1689,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["minimatch", "npm:9.0.3"],\
             ["brace-expansion", "npm:2.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["minimist", [\
+        ["npm:1.2.8", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/minimist-npm-1.2.8-d7af7b1dce-8.zip/node_modules/minimist/",\
+          "packageDependencies": [\
+            ["minimist", "npm:1.2.8"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1473,6 +1799,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["mkdirp-classic", [\
+        ["npm:0.5.3", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/mkdirp-classic-npm-0.5.3-3b5c991910-8.zip/node_modules/mkdirp-classic/",\
+          "packageDependencies": [\
+            ["mkdirp-classic", "npm:0.5.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ms", [\
         ["npm:2.1.2", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/ms-npm-2.1.2-ec0c1512ff-8.zip/node_modules/ms/",\
@@ -1506,6 +1841,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/nanoid-npm-3.3.6-e6d6ae7e71-8.zip/node_modules/nanoid/",\
           "packageDependencies": [\
             ["nanoid", "npm:3.3.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["napi-build-utils", [\
+        ["npm:1.0.2", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/napi-build-utils-npm-1.0.2-892e4bba56-8.zip/node_modules/napi-build-utils/",\
+          "packageDependencies": [\
+            ["napi-build-utils", "npm:1.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1575,17 +1919,41 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["next-reviews", "workspace:."],\
+            ["@tailwindcss/typography", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:0.5.10"],\
             ["@types/node", "npm:20.5.9"],\
             ["@types/react", "npm:18.2.21"],\
             ["autoprefixer", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:10.4.15"],\
+            ["gray-matter", "npm:4.0.3"],\
+            ["marked", "npm:9.0.0"],\
             ["next", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:13.4.19"],\
             ["postcss", "npm:8.4.29"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:18.2.0"],\
+            ["sharp", "npm:0.32.5"],\
             ["tailwindcss", "npm:3.3.3"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
           "linkType": "SOFT"\
+        }]\
+      ]],\
+      ["node-abi", [\
+        ["npm:3.47.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/node-abi-npm-3.47.0-9d2a86a633-8.zip/node_modules/node-abi/",\
+          "packageDependencies": [\
+            ["node-abi", "npm:3.47.0"],\
+            ["semver", "npm:7.5.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["node-addon-api", [\
+        ["npm:6.1.0", {\
+          "packageLocation": "./.yarn/unplugged/node-addon-api-npm-6.1.0-634c545b39/node_modules/node-addon-api/",\
+          "packageDependencies": [\
+            ["node-addon-api", "npm:6.1.0"],\
+            ["node-gyp", "npm:9.4.0"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["node-gyp", [\
@@ -1892,6 +2260,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["postcss-selector-parser", [\
+        ["npm:6.0.10", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/postcss-selector-parser-npm-6.0.10-a4d7aaa270-8.zip/node_modules/postcss-selector-parser/",\
+          "packageDependencies": [\
+            ["postcss-selector-parser", "npm:6.0.10"],\
+            ["cssesc", "npm:3.0.0"],\
+            ["util-deprecate", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:6.0.13", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/postcss-selector-parser-npm-6.0.13-f732d92326-8.zip/node_modules/postcss-selector-parser/",\
           "packageDependencies": [\
@@ -1911,6 +2288,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["prebuild-install", [\
+        ["npm:7.1.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/prebuild-install-npm-7.1.1-cb9fc9d341-8.zip/node_modules/prebuild-install/",\
+          "packageDependencies": [\
+            ["prebuild-install", "npm:7.1.1"],\
+            ["detect-libc", "npm:2.0.2"],\
+            ["expand-template", "npm:2.0.3"],\
+            ["github-from-package", "npm:0.0.0"],\
+            ["minimist", "npm:1.2.8"],\
+            ["mkdirp-classic", "npm:0.5.3"],\
+            ["napi-build-utils", "npm:1.0.2"],\
+            ["node-abi", "npm:3.47.0"],\
+            ["pump", "npm:3.0.0"],\
+            ["rc", "npm:1.2.8"],\
+            ["simple-get", "npm:4.0.1"],\
+            ["tar-fs", "npm:2.1.1"],\
+            ["tunnel-agent", "npm:0.6.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["promise-retry", [\
         ["npm:2.0.1", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/promise-retry-npm-2.0.1-871f0b01b7-8.zip/node_modules/promise-retry/",\
@@ -1922,11 +2320,44 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["pump", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/pump-npm-3.0.0-0080bf6a7a-8.zip/node_modules/pump/",\
+          "packageDependencies": [\
+            ["pump", "npm:3.0.0"],\
+            ["end-of-stream", "npm:1.4.4"],\
+            ["once", "npm:1.4.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["queue-microtask", [\
         ["npm:1.2.3", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/queue-microtask-npm-1.2.3-fcc98e4e2d-8.zip/node_modules/queue-microtask/",\
           "packageDependencies": [\
             ["queue-microtask", "npm:1.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["queue-tick", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/queue-tick-npm-1.0.1-10bd6eaf3d-8.zip/node_modules/queue-tick/",\
+          "packageDependencies": [\
+            ["queue-tick", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["rc", [\
+        ["npm:1.2.8", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/rc-npm-1.2.8-d6768ac936-8.zip/node_modules/rc/",\
+          "packageDependencies": [\
+            ["rc", "npm:1.2.8"],\
+            ["deep-extend", "npm:0.6.0"],\
+            ["ini", "npm:1.3.8"],\
+            ["minimist", "npm:1.2.8"],\
+            ["strip-json-comments", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2075,6 +2506,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["section-matter", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/section-matter-npm-1.0.0-2f79fd59d6-8.zip/node_modules/section-matter/",\
+          "packageDependencies": [\
+            ["section-matter", "npm:1.0.0"],\
+            ["extend-shallow", "npm:2.0.1"],\
+            ["kind-of", "npm:6.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["semver", [\
         ["npm:7.5.4", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/semver-npm-7.5.4-c4ad957fcd-8.zip/node_modules/semver/",\
@@ -2090,6 +2532,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/set-blocking-npm-2.0.0-49e2cffa24-8.zip/node_modules/set-blocking/",\
           "packageDependencies": [\
             ["set-blocking", "npm:2.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["sharp", [\
+        ["npm:0.32.5", {\
+          "packageLocation": "./.yarn/unplugged/sharp-npm-0.32.5-f82a9875e0/node_modules/sharp/",\
+          "packageDependencies": [\
+            ["sharp", "npm:0.32.5"],\
+            ["color", "npm:4.2.3"],\
+            ["detect-libc", "npm:2.0.2"],\
+            ["node-addon-api", "npm:6.1.0"],\
+            ["node-gyp", "npm:9.4.0"],\
+            ["prebuild-install", "npm:7.1.1"],\
+            ["semver", "npm:7.5.4"],\
+            ["simple-get", "npm:4.0.1"],\
+            ["tar-fs", "npm:3.0.4"],\
+            ["tunnel-agent", "npm:0.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2125,6 +2585,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/signal-exit-npm-4.1.0-61fb957687-8.zip/node_modules/signal-exit/",\
           "packageDependencies": [\
             ["signal-exit", "npm:4.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["simple-concat", [\
+        ["npm:1.0.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/simple-concat-npm-1.0.1-48df70de29-8.zip/node_modules/simple-concat/",\
+          "packageDependencies": [\
+            ["simple-concat", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["simple-get", [\
+        ["npm:4.0.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/simple-get-npm-4.0.1-fa2a97645d-8.zip/node_modules/simple-get/",\
+          "packageDependencies": [\
+            ["simple-get", "npm:4.0.1"],\
+            ["decompress-response", "npm:6.0.0"],\
+            ["once", "npm:1.4.0"],\
+            ["simple-concat", "npm:1.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["simple-swizzle", [\
+        ["npm:0.2.2", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/simple-swizzle-npm-0.2.2-8dee37fad1-8.zip/node_modules/simple-swizzle/",\
+          "packageDependencies": [\
+            ["simple-swizzle", "npm:0.2.2"],\
+            ["is-arrayish", "npm:0.3.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2170,6 +2661,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["sprintf-js", [\
+        ["npm:1.0.3", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/sprintf-js-npm-1.0.3-73f0a322fa-8.zip/node_modules/sprintf-js/",\
+          "packageDependencies": [\
+            ["sprintf-js", "npm:1.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ssri", [\
         ["npm:10.0.5", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/ssri-npm-10.0.5-1a7557d04d-8.zip/node_modules/ssri/",\
@@ -2185,6 +2685,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/streamsearch-npm-1.1.0-fc3ad6536d-8.zip/node_modules/streamsearch/",\
           "packageDependencies": [\
             ["streamsearch", "npm:1.1.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["streamx", [\
+        ["npm:2.15.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/streamx-npm-2.15.1-d5dbdeeb03-8.zip/node_modules/streamx/",\
+          "packageDependencies": [\
+            ["streamx", "npm:2.15.1"],\
+            ["fast-fifo", "npm:1.3.2"],\
+            ["queue-tick", "npm:1.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2235,6 +2746,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["strip-ansi", "npm:7.1.0"],\
             ["ansi-regex", "npm:6.0.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["strip-bom-string", [\
+        ["npm:1.0.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/strip-bom-string-npm-1.0.0-aa6cb548d1-8.zip/node_modules/strip-bom-string/",\
+          "packageDependencies": [\
+            ["strip-bom-string", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["strip-json-comments", [\
+        ["npm:2.0.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/strip-json-comments-npm-2.0.1-e7883b2d04-8.zip/node_modules/strip-json-comments/",\
+          "packageDependencies": [\
+            ["strip-json-comments", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2341,6 +2870,53 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["tar-fs", [\
+        ["npm:2.1.1", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/tar-fs-npm-2.1.1-e374d3b7a2-8.zip/node_modules/tar-fs/",\
+          "packageDependencies": [\
+            ["tar-fs", "npm:2.1.1"],\
+            ["chownr", "npm:1.1.4"],\
+            ["mkdirp-classic", "npm:0.5.3"],\
+            ["pump", "npm:3.0.0"],\
+            ["tar-stream", "npm:2.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:3.0.4", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/tar-fs-npm-3.0.4-fa3da2e321-8.zip/node_modules/tar-fs/",\
+          "packageDependencies": [\
+            ["tar-fs", "npm:3.0.4"],\
+            ["mkdirp-classic", "npm:0.5.3"],\
+            ["pump", "npm:3.0.0"],\
+            ["tar-stream", "npm:3.1.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tar-stream", [\
+        ["npm:2.2.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/tar-stream-npm-2.2.0-884c79b510-8.zip/node_modules/tar-stream/",\
+          "packageDependencies": [\
+            ["tar-stream", "npm:2.2.0"],\
+            ["bl", "npm:4.1.0"],\
+            ["end-of-stream", "npm:1.4.4"],\
+            ["fs-constants", "npm:1.0.0"],\
+            ["inherits", "npm:2.0.4"],\
+            ["readable-stream", "npm:3.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:3.1.6", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/tar-stream-npm-3.1.6-ce3ac17e49-8.zip/node_modules/tar-stream/",\
+          "packageDependencies": [\
+            ["tar-stream", "npm:3.1.6"],\
+            ["b4a", "npm:1.6.4"],\
+            ["fast-fifo", "npm:1.3.2"],\
+            ["streamx", "npm:2.15.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["thenify", [\
         ["npm:3.3.1", {\
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/thenify-npm-3.3.1-030bedb22c-8.zip/node_modules/thenify/",\
@@ -2385,6 +2961,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/tslib-npm-2.6.2-4fc8c068d9-8.zip/node_modules/tslib/",\
           "packageDependencies": [\
             ["tslib", "npm:2.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["tunnel-agent", [\
+        ["npm:0.6.0", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/tunnel-agent-npm-0.6.0-64345ab7eb-8.zip/node_modules/tunnel-agent/",\
+          "packageDependencies": [\
+            ["tunnel-agent", "npm:0.6.0"],\
+            ["safe-buffer", "npm:5.2.1"]\
           ],\
           "linkType": "HARD"\
         }]\

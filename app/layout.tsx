@@ -18,7 +18,7 @@ const HomePage: FC<Props> = ({ children }: Props) => {
           <NavBar />
         </header>
         <main className='grow py-3'>{children}</main>
-        <footer className='border-t py-3 text-center text-sx'>
+        <footer className='border-t py-3 text-center text-slate-500 text-sx'>
           Game data and images courtesy of{' '}
           <a
             href='https://rawg.io/'
