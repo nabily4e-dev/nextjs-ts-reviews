@@ -28,6 +28,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@heroicons/react", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:2.0.18"],\
             ["@tailwindcss/typography", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:0.5.10"],\
             ["@types/node", "npm:20.5.9"],\
             ["@types/react", "npm:18.2.21"],\
@@ -50,6 +51,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/@alloc-quick-lru-npm-5.2.0-eb83517088-8.zip/node_modules/@alloc/quick-lru/",\
           "packageDependencies": [\
             ["@alloc/quick-lru", "npm:5.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@heroicons/react", [\
+        ["npm:2.0.18", {\
+          "packageLocation": "../../../../../AppData/Local/Yarn/Berry/cache/@heroicons-react-npm-2.0.18-3febb62534-8.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "npm:2.0.18"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:2.0.18", {\
+          "packageLocation": "./.yarn/__virtual__/@heroicons-react-virtual-6738a7687a/6/AppData/Local/Yarn/Berry/cache/@heroicons-react-npm-2.0.18-3febb62534-8.zip/node_modules/@heroicons/react/",\
+          "packageDependencies": [\
+            ["@heroicons/react", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:2.0.18"],\
+            ["@types/react", "npm:18.2.21"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -1919,6 +1942,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["next-reviews", "workspace:."],\
+            ["@heroicons/react", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:2.0.18"],\
             ["@tailwindcss/typography", "virtual:6d4d917f1adbbc0394e1abdee38a99977e0b52abb860319ab7da869210e2478a20ae0227908335ccef67839881980d03ff5a9d44fb7ef1857a7df08d07207f1b#npm:0.5.10"],\
             ["@types/node", "npm:20.5.9"],\
             ["@types/react", "npm:18.2.21"],\

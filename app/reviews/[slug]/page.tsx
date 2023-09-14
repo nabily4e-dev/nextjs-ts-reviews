@@ -1,4 +1,5 @@
 import Heading from '@/components/heading';
+import ShareLinkButton from '@/components/share-link-button';
 import { getReview, getSlugs } from '@/lib/reviews';
 import { Metadata } from 'next';
 import Image from 'next/image';
@@ -36,7 +37,10 @@ const ReviewPage: FC<ReviewPageProps> = async ({
   return (
     <>
       <Heading>{title}</Heading>
-      <p className='italic pb-2'>{date}</p>
+      <div className='flex gap-4 items-baseline'>
+        <p className='italic pb-2'>{date}</p>
+        <ShareLinkButton />
+      </div>
       <Image
         src={image}
         alt='Hollow Knight'
