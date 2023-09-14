@@ -1,3 +1,4 @@
+import Heading from '@/components/heading';
 import type { FC, ReactNode } from 'react';
 
 type Props = {
@@ -6,12 +7,10 @@ type Props = {
 
 const ReviewsLayout: FC<Props> = ({ children }: Props) => {
   return (
-    <div>
-      <div>
-        <h1>Reviews</h1>
-      </div>
-      <div>{children}</div>
-    </div>
+    <section>
+      <Heading>Reviews</Heading>
+      <main>{children}</main>
+    </section>
   );
 };
 

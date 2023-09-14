@@ -31,11 +31,13 @@ export async function getReviews(): Promise<Review[]> {
     const review = await getReview(slug);
     reviews.push(review);
   }
-  reviews.sort((a, b) => {
-    if (a.date > b.date) return -1;
-    if (a.date < b.date) return 1;
-    return 0;
-  });
+  // reviews.sort((a, b) => {
+  //   if (a.date > b.date) return -1;
+  //   if (a.date < b.date) return 1;
+  //   return 0;
+  // });
+  //* A more concise way to write the above code
+  reviews.sort((a, b) => b.date.localeCompare(a.date));
   return reviews;
 }
 

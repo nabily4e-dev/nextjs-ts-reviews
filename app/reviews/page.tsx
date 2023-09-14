@@ -9,8 +9,7 @@ type Props = {};
 const ReviewsPage: FC<Props> = async (props: Props) => {
   const reviews = await getReviews();
   return (
-    <>
-      <Heading>Reviews</Heading>
+    <> 
       <ul className='flex flex-row flex-wrap gap-3'>
         {reviews.map((review) => (
           <li
