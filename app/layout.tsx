@@ -1,7 +1,20 @@
 import NavBar from '@/components/nav-bar';
+import { Metadata } from 'next';
 import type { FC, ReactNode } from 'react';
 import { exo2, orbitron } from './fonts';
 import './globals.css';
+
+export const metadata: Metadata = {
+  title: {
+    default: ' Indie Game Reviews',
+    template: '%s | Indie Game Reviews',
+  },
+  generator: 'nabily4e',
+  applicationName: 'Indie Game Reviews',
+  keywords: ['indie, game, reviews, gamer, gaming, review'],
+  description: 'Game reviews by you, gamer ^_*',
+  creator: 'nabily4e',
+};
 
 type Props = {
   children: ReactNode;

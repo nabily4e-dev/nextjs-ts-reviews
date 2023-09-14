@@ -1,15 +1,20 @@
-import Heading from '@/components/heading';
 import { getReviews } from '@/lib/reviews';
+import { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import type { FC } from 'react';
+
+export const metadata: Metadata = {
+  title: 'Reviews',
+  description: 'Game reviews by you, gamer ^_*',
+};
 
 type Props = {};
 
 const ReviewsPage: FC<Props> = async (props: Props) => {
   const reviews = await getReviews();
   return (
-    <> 
+    <>
       <ul className='flex flex-row flex-wrap gap-3'>
         {reviews.map((review) => (
           <li
